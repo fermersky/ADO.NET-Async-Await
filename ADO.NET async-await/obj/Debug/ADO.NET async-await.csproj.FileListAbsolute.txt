@@ -1,0 +1,9 @@
+c:\users\pko\documents\visual studio 2017\Projects\ADO.NET async-await\ADO.NET async-await\obj\Debug\ADO.NET async-await.csprojResolveAssemblyReference.cache
+c:\users\pko\documents\visual studio 2017\Projects\ADO.NET async-await\ADO.NET async-await\obj\Debug\ADO.NET_async_await.Form1.resources
+c:\users\pko\documents\visual studio 2017\Projects\ADO.NET async-await\ADO.NET async-await\obj\Debug\ADO.NET_async_await.Properties.Resources.resources
+c:\users\pko\documents\visual studio 2017\Projects\ADO.NET async-await\ADO.NET async-await\obj\Debug\ADO.NET async-await.csproj.GenerateResource.Cache
+c:\users\pko\documents\visual studio 2017\Projects\ADO.NET async-await\ADO.NET async-await\bin\Debug\ADO.NET async-await.exe.config
+c:\users\pko\documents\visual studio 2017\Projects\ADO.NET async-await\ADO.NET async-await\bin\Debug\ADO.NET async-await.exe
+c:\users\pko\documents\visual studio 2017\Projects\ADO.NET async-await\ADO.NET async-await\bin\Debug\ADO.NET async-await.pdb
+c:\users\pko\documents\visual studio 2017\Projects\ADO.NET async-await\ADO.NET async-await\obj\Debug\ADO.NET async-await.exe
+c:\users\pko\documents\visual studio 2017\Projects\ADO.NET async-await\ADO.NET async-await\obj\Debug\ADO.NET async-await.pdb
