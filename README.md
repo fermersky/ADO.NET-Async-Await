@@ -17,4 +17,4 @@ public async Task FillComboBoxAsync()
                 while(await reader.ReadAsync())
                     comboBox1.Items.Add(reader[0]);
        }
-}```
+}
