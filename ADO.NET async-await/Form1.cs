@@ -21,11 +21,6 @@ namespace ADO.NET_async_await
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         public async Task FillComboBoxAsync()
         {
             SqlConnection con1;
@@ -38,9 +33,7 @@ namespace ADO.NET_async_await
                 SqlDataReader reader = await com.ExecuteReaderAsync();
 
                 while(await reader.ReadAsync())
-                {
                     comboBox1.Items.Add(reader[0]);
-                }
             }
         }
 
@@ -63,7 +56,7 @@ namespace ADO.NET_async_await
             using (conn = new SqlConnection(cs))
             {
                 await conn.OpenAsync();
-                await FillComboBoxAsync();
+                await FillComboBoxAsync(); // execute query async
                 string sql = "waitfor delay '00:00:03';";
                 
                 sql += textBox1.Text;
@@ -73,10 +66,6 @@ namespace ADO.NET_async_await
                 
 
                 table = new DataTable();
-
-                
-
-
 
                 int line = 0;
 
@@ -98,19 +87,13 @@ namespace ADO.NET_async_await
                 } while (await reader.NextResultAsync());
 
                 dataGridView1.DataSource = null;
-                dataGridView1.DataSource = table;
-
-
-
-               
+                dataGridView1.DataSource = table; // full table 
             }
         }
 
         private async void button2_Click(object sender, EventArgs e)
         {
-            await CountBooksWittenByAsync(comboBox1.Items[comboBox1.SelectedIndex].ToString());
-
-            //MessageBox.Show();
+            await CountBooksWittenByAsync(comboBox1.Items[comboBox1.SelectedIndex].ToString()); // display count written books by Author, selected in combobox
         }
     }
 }
